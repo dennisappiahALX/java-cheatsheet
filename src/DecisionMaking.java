@@ -84,6 +84,8 @@ public class DecisionMaking {
             System.out.println();
         }
 
+
+
         /* printing both spaces and stars*/
         // * * * * *
         //   * * * *
@@ -91,6 +93,19 @@ public class DecisionMaking {
         //       * *
         //         *
 
+        for (int i =1 ; i <=5 ; i++) {
+            //printing the space
+            for (int k = 1; k <= i - 1; k++){
+                System.out.print(" ");
+            }
+
+            //printing the stars
+            for (int j = 5; j >= i ; j--){
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
 
 
 
