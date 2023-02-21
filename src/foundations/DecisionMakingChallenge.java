@@ -1,3 +1,5 @@
+package foundations;
+
 import java.util.Scanner;
 
 public class DecisionMakingChallenge {

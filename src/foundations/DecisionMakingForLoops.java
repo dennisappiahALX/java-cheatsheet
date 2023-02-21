@@ -1,3 +1,5 @@
+package foundations;
+
 public class DecisionMakingForLoops {
     public static void main(String[] args) {
         //For Loops (Initialize, comparison, update)

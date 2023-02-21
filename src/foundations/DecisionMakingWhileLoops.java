@@ -1,3 +1,5 @@
+package foundations;
+
 public class DecisionMakingWhileLoops {
     public static void main(String[] args) {
         //Initialise, comparison, body, update
