@@ -48,11 +48,14 @@ public class NonPrimitiveTypes {
         }
 
         // 2-Dimensional Array is a matrix
-        int [][] matrix = new int[][]{};
+        //iterate over the indexes
+        int [][] matrix = new int[][]{{2,4,7},{5,6,9}, {7,9,11}};
 
-
-
-
-
+        for (int i= 0; i < 3 ; i++){
+            for (int j=0; j < 3; j++){
+                System.out.print("\t"+ matrix[i][j]);
+            }
+            System.out.println();
+        }
     }
 }
