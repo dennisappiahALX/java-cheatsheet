@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class ArraysChallenges {
     public static void main(String[] args) {
-//        sumOfNumbers();
-//        average();
-//        removeElement();
-//        insertElement();
+        sumOfNumbers();
+        average();
+        removeElement();
+        insertElement();
         minMax();
+        reverseArray();
+        duplicateArray();
     }
 
     public static void sumOfNumbers(){
@@ -168,6 +170,36 @@ public class ArraysChallenges {
             }
         }
         System.out.println("Minimum value: " + max);
+    }
+
+    public static void reverseArray() {
+        /*Write a Java program that reverses an array*/
+        int [] myArray = new int[] {25, -25, 5, 7, 8,9, 3,10};
+
+        //iterating through the first half elements to switch half the elements
+
+        for (int i = 0; i < myArray.length; i++){
+            System.out.print("\t"+ myArray[i]);
+        }
+        System.out.println();
+        System.out.println("The reverse is: ");
+
+        for (int i = myArray.length - 1; i >= 0; i--){
+            System.out.print("\t" + myArray[i]);
+        }
+    }
+
+    public static void duplicateArray (){
+        /* Write a Java program that finds duplicate values in an array */
+        int [] myArray = new int[] {25, 25, 5, 7, 8,9, 9, 3,10};
+
+        for (int i = 0; i < myArray.length; i++ ){
+            for (int j = i+1; j < myArray.length; j++){
+                if (myArray[i] == myArray[j]){
+                    System.out.println(myArray[j]);
+                }
+            }
+        }
     }
 
 }
