@@ -1,6 +1,6 @@
 package foundations;
 
-public class NonPrimitiveTypes {
+public class NonPrimitiveTypesArraysStrings {
     public static void main(String[] args) {
         string();
         array();
