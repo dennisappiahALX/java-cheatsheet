@@ -1,2 +1,5 @@
-package objectOriented;public class Secretary {
+package objectOriented;
+
+public class Secretary extends Employee{
+
 }
