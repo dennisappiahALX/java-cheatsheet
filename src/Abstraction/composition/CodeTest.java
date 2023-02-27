@@ -1,4 +1,4 @@
-package Abstraction.example2;
+package Abstraction.composition;
 
 public class CodeTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.example1;
 
 public class Circle {
     //circle consists of center(point (x,y)) and radius - A circle has-a point

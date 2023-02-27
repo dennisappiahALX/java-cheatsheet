@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.example1;
 
 public class Point {
     int x;

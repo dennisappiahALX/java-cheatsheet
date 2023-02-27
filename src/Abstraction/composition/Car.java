@@ -1,4 +1,4 @@
-package Abstraction.example2;
+package Abstraction.composition;
 
 public class Car extends Vehicle {
     //Car is-a Vehicle

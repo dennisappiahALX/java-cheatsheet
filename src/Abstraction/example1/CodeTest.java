@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.example1;
 
 public class CodeTest {
     /* Inheritance is used to implement "is_a" relation */
