@@ -16,6 +16,6 @@ public class Rectangle implements Shape{
 
     @Override
     public double calculatePerimeter() {
-        return (width + length) *2;
+        return (width * length) *2;
     }
 }
